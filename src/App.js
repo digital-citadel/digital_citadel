@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./Home.js";
-import NotFound from "./NotFound";
+import Home from "./Pages/Home.js";
+import NotFound from "./Components/NotFound";
 
 function App() {
   return (
