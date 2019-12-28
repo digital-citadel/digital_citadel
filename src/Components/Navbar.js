@@ -30,7 +30,9 @@ class Navbar extends Component {
           style={{ marginTop: "20px" }}
         >
           <MDBNavbarBrand>
-            <strong style={{ color: "#E37373" }}>Digital Citadel</strong>
+            <strong style={{ color: "#E37373", marginLeft: "9vw" }}>
+              Digital Citadel
+            </strong>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse("navbarCollapse3")} />
           <MDBCollapse
@@ -38,7 +40,7 @@ class Navbar extends Component {
             isOpen={this.state.collapseID}
             navbar
           >
-            <MDBNavbarNav right>
+            <MDBNavbarNav right style={{ marginRight: "2vw" }}>
               <MDBNavItem style={{ color: "#E37373" }}>
                 <MDBNavLink
                   style={{ color: "#E37373" }}
