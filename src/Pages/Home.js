@@ -4,6 +4,9 @@ import Navbar from "../Components/Navbar";
 import HPTextComponent from "../Components/HPTextComponent";
 import HPIllustration from "../Components/HPIllustration";
 import HPMouseComponent from "../Components/HPMouseComponent";
+import TeamCard from "../Components/TeamCard";
+import items from "./data";
+
 
 export default class Home extends Component {
   render() {
@@ -15,6 +18,7 @@ export default class Home extends Component {
           <HPIllustration />
         </div>
         <HPMouseComponent />
+        <TeamCard />
       </MDBContainer>
     );
   }
