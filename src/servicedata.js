@@ -1,8 +1,3 @@
-import img1 from "./Assets/undraw_ideation_research.svg";
-import img2 from "./Assets/undraw_design.svg";
-import img3 from "./Assets/undraw_devops.svg";
-import img4 from "./Assets/undraw_growth_analytics_8btt.svg";
-
 export default [
   {
     id: 1,
@@ -14,7 +9,7 @@ export default [
       "Userbase Research"
     ],
     images:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design.svg"
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design%20(1).png"
   },
   {
     id: 2,
@@ -25,7 +20,8 @@ export default [
       "Visual Design",
       "Usability Engineering"
     ],
-    images: { url: img2 }
+    images:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design%20(1).png"
   },
   {
     id: 3,
@@ -36,7 +32,8 @@ export default [
       "Containerization",
       "E-Commerce Applications"
     ],
-    images: { url: img3 }
+    images:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design%20(1).png"
   },
   {
     id: 4,
@@ -47,6 +44,7 @@ export default [
       "Business Analysis",
       "Video Production"
     ],
-    images: { url: img4 }
+    images:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design%20(1).png"
   }
 ];
