@@ -4,6 +4,7 @@ import Aboutus from "../Sections/Aboutus";
 import Services from "../Sections/Services";
 import Team from "../Sections/Team";
 import ContactUs from "../Sections/ContactUs";
+import Footer from "../Sections/Footer";
 class SinglePage extends Component {
   constructor(props) {
     super(props);
@@ -17,6 +18,7 @@ class SinglePage extends Component {
         <Services />
         <Team />
         <ContactUs />
+        <Footer />
       </div>
     );
   }
