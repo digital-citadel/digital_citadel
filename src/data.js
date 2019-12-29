@@ -1,4 +1,3 @@
-import imageOne from "./Assets/SandeshAthreya.jpeg";
 export default [
   {
     id: 1,
@@ -19,7 +18,8 @@ export default [
     description:
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["Docker", "Kubernetes", "Hosting", "Security"],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/IMG-20191229-WA0007.jpg"
   },
   {
     id: 3,
@@ -29,7 +29,8 @@ export default [
     description:
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["UI/UX", "Web design", "Web Development", "Database"],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/akt_pr.png"
   },
   {
     id: 4,
@@ -39,7 +40,8 @@ export default [
     description:
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["Front-End", "Web design", "Database Design", "Web Development"],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/Screenshot_20191229-180908.jpg"
   },
   {
     id: 5,
@@ -49,7 +51,8 @@ export default [
     description:
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["UI/UX", "Adobe XD", "Illustrator", "InDesign"],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/IMG-20161125-WA0001.jpeg"
   },
   {
     id: 6,
@@ -59,7 +62,8 @@ export default [
     description:
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["Project Management", "Development", "Data Analysis", "DB design"],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/WhatsApp%20Image%202019-12-29%20at%204.25.15%20PM.jpeg"
   },
   {
     id: 7,
@@ -85,7 +89,8 @@ export default [
       "Software Developer",
       "DB Modelling"
     ],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/WhatsApp%20Image%202019-12-21%20at%207.45.42%20PM.jpeg"
   },
   {
     id: 9,
@@ -100,7 +105,8 @@ export default [
       "Software Developer",
       "DB Modelling"
     ],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/IMG_20191229_162531.jpeg"
   },
   {
     id: 10,
@@ -110,26 +116,7 @@ export default [
     description:
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["Front-End", "Back-End", "DevOps", "Cloud Management"],
-    img: imageOne
-  },
-  {
-    id: 11,
-    name: "Ashwin Bharadwaj",
-    role: "Web Developer",
-    oneLiner: "3+ years of experience",
-    description:
-      "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-    skils: ["Web design", "Front-End", "DB Modelling"],
-    img: imageOne
-  },
-  {
-    id: 12,
-    name: "Pavan CT",
-    role: "UI/UX designer",
-    oneLiner: "3+ years of experience",
-    description:
-      "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-    skils: ["UI UX", "Web design", "Cloud managment", "DB design"],
-    img: imageOne
+    img:
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/FB_IMG_1577639897138__01.jpg"
   }
 ];

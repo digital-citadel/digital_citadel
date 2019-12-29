@@ -37,7 +37,7 @@ class TeamCard extends Component {
             <MDBCardUp
               style={{ height: "60px", background: "#0D0B34" }}
             ></MDBCardUp>
-            <MDBAvatar className='mx-auto white' circle>
+            <MDBAvatar className='mx-auto' circle>
               <img src={this.props.emp.img} alt='' className='rounded-circle' />
             </MDBAvatar>
             <MDBCardBody>
