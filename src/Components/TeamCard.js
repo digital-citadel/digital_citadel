@@ -27,7 +27,7 @@ class TeamCard extends Component {
 
     return (
       // <MDBRow>
-      <MDBCol className='col-md-2' style={{ minHeight: "26rem" }}>
+      <MDBCol className='col-md-3' style={{ minHeight: "26rem" }}>
         <MDBRotatingCard
           flipped={this.state.flipped}
           className='text-center h-100 w-100'
