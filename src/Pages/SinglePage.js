@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Home from "../Sections/Home";
 import Aboutus from "../Sections/Aboutus";
+import Services from "../Sections/Services";
 import Team from "../Sections/Team";
 class SinglePage extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class SinglePage extends Component {
       <div>
         <Home />
         <Aboutus />
+        <Services />
         <Team />
       </div>
     );
