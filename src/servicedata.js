@@ -9,7 +9,7 @@ export default [
       "Userbase Research"
     ],
     images:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design%20(1).png"
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_ideation_research.png"
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export default [
       "E-Commerce Applications"
     ],
     images:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design%20(1).png"
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_devops.png"
   },
   {
     id: 4,
@@ -45,6 +45,6 @@ export default [
       "Video Production"
     ],
     images:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_design%20(1).png"
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/undraw_growth_analytics_8btt.png"
   }
 ];
