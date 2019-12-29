@@ -1,9 +1,13 @@
 body {
   margin: 0;
   background-color: red;
-  font-family: proxima-nova, sans-serif !important;
-  font-weight: 900;
-  font-style: normal;
+  @font-face {
+    font-family: proxima-nova;
+    src: url(Fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf) format("truetype");
+  }
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Proxima Nova'
+    sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
