@@ -10,11 +10,11 @@ export default class Home extends Component {
     return (
       <MDBContainer fluid>
         <Navbar />
-        <div className='row col-md-12'>
+        <section className='row col-md-12'>
           <HPTextComponent />
           <HPIllustration />
           <HPMouseComponent />
-        </div>
+        </section>
       </MDBContainer>
     );
   }

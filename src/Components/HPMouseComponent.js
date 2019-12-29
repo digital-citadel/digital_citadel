@@ -3,11 +3,11 @@ import { MDBIcon } from "mdbreact";
 
 const HPMouseComponent = () => {
   return (
-    <div className='col-md-12 text-center' style={{ padding: "8vh 0 0" }}>
+    <div className='col-md-12 text-center' style={{ padding: "9vh 0 0 2vw" }}>
       <div>
         <MDBIcon
           style={{
-            marginTop: "8vh",
+            marginTop: "9vh",
             color: "#4285F4",
             right: "0",
             display: "flex",
