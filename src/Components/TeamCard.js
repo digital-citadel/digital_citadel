@@ -13,10 +13,6 @@ class TeamCard extends Component {
   state = {
     flipped: false
   };
-  constructor(props) {
-    super(props);
-    //console.log(props);
-  }
 
   handleFlipping = () => {
     this.setState({ flipped: !this.state.flipped });
@@ -26,7 +22,6 @@ class TeamCard extends Component {
     const colStyle = { maxWidth: "18rem" };
 
     return (
-      // <MDBRow>
       <MDBCol className='col-md-3' style={{ minHeight: "26rem" }}>
         <MDBRotatingCard
           flipped={this.state.flipped}
@@ -138,8 +133,6 @@ class TeamCard extends Component {
           </MDBCard>
         </MDBRotatingCard>
       </MDBCol>
-
-      // </MDBRow>
     );
   }
 }
