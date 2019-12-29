@@ -3,6 +3,7 @@ import Home from "../Sections/Home";
 import Aboutus from "../Sections/Aboutus";
 import Services from "../Sections/Services";
 import Team from "../Sections/Team";
+import ContactUs from "../Sections/ContactUs";
 class SinglePage extends Component {
   constructor(props) {
     super(props);
@@ -15,6 +16,7 @@ class SinglePage extends Component {
         <Aboutus />
         <Services />
         <Team />
+        <ContactUs />
       </div>
     );
   }
