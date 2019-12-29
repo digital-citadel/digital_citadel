@@ -52,7 +52,7 @@ export default [
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["UI/UX", "Adobe XD", "Illustrator", "InDesign"],
     img:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/IMG-20161125-WA0001.jpeg"
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/shivani.jpeg"
   },
   {
     id: 6,
