@@ -3,7 +3,7 @@ import { MDBContainer } from "mdbreact";
 import Navbar from "../Components/Navbar";
 import HPTextComponent from "../Components/HPTextComponent";
 import HPIllustration from "../Components/HPIllustration";
-import HPMouseComponent from "../Components/HPMouseComponent";
+//import HPMouseComponent from "../Components/HPMouseComponent";
 
 export default class Home extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class Home extends Component {
           <HPTextComponent />
           <HPIllustration />
         </div>
-        <HPMouseComponent />
+        {/* <HPMouseComponent /> */}
       </MDBContainer>
     );
   }
