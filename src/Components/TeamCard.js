@@ -57,26 +57,21 @@ class TeamCard extends Component {
               </a>
               <ul className='list-inline py-2' style={{ marginTop: "16px" }}>
                 <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg fb-ic'>
+                  <a href={this.props.emp.Facebook} className='p-2 fa-lg fb-ic'>
                     <MDBIcon icon='facebook' brand style={{ color: "white" }} />
                   </a>
                 </li>
+
                 <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg tw-ic'>
-                    <MDBIcon icon='twitter' brand style={{ color: "white" }} />
+                  <a
+                    href={this.props.emp.Github}
+                    className='p-2 fa-lg gplus-ic'
+                  >
+                    <MDBIcon icon='github' brand style={{ color: "white" }} />
                   </a>
                 </li>
                 <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg gplus-ic'>
-                    <MDBIcon
-                      icon='google-plus'
-                      brand
-                      style={{ color: "white" }}
-                    />
-                  </a>
-                </li>
-                <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg li-ic'>
+                  <a href={this.props.emp.LinkedIn} className='p-2 fa-lg li-ic'>
                     <MDBIcon icon='linkedin' brand style={{ color: "white" }} />
                   </a>
                 </li>
@@ -87,37 +82,8 @@ class TeamCard extends Component {
             <MDBCardBody>
               <h4 className='font-weight-bold white-text'>About me</h4>
               <hr />
-              <p className='white-text'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-                quae, dolores dicta.
-              </p>
+              <p className='white-text'>{this.props.emp.description}</p>
               <hr />
-              <ul className='list-inline py-2' style={{ marginTop: "16px" }}>
-                <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg fb-ic'>
-                    <MDBIcon icon='facebook' brand style={{ color: "white" }} />
-                  </a>
-                </li>
-                <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg tw-ic'>
-                    <MDBIcon icon='twitter' brand style={{ color: "white" }} />
-                  </a>
-                </li>
-                <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg gplus-ic'>
-                    <MDBIcon
-                      icon='google-plus'
-                      brand
-                      style={{ color: "white" }}
-                    />
-                  </a>
-                </li>
-                <li className='list-inline-item'>
-                  <a href='#!' className='p-2 fa-lg li-ic'>
-                    <MDBIcon icon='linkedin' brand style={{ color: "white" }} />
-                  </a>
-                </li>
-              </ul>
               <a
                 href='#!'
                 className='rotate-btn'
