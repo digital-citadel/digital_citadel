@@ -13,6 +13,7 @@ export default class Home extends Component {
         <section className='row col-md-12' style={{ height: "100vh" }}>
           <HPTextComponent />
           <HPIllustration />
+
           <HPMouseComponent />
         </section>
       </MDBContainer>
