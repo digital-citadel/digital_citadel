@@ -22,12 +22,13 @@ class CUFormComponent extends Component {
                 action='https://formspree.io/mpzqowjw'
                 method='POST'
               >
-                <p className='h5 text-center mb-4' style={{ color: "#A87293" }}>
+                <p className='h5 text-center mb-4 font_bold' style={{ color: "#A87293" }}>
                   Just fill out this simple form
                 </p>
                 <label
                   htmlFor='defaultFormContactNameEx'
                   style={{ color: "#A87293" }}
+                  className="font_medium"
                 >
                   Your name
                 </label>
@@ -45,6 +46,7 @@ class CUFormComponent extends Component {
                 <label
                   htmlFor='defaultFormContactEmailEx'
                   style={{ color: "#A87293" }}
+                  className="font_medium"
                 >
                   Your email
                 </label>
@@ -64,6 +66,7 @@ class CUFormComponent extends Component {
                   htmlFor='defaultFormContactSubjectEx'
                   cstyle={{ color: "#E37373" }}
                   style={{ color: "#A87293" }}
+                  className="font_medium"
                 >
                   Subject
                 </label>
@@ -82,6 +85,7 @@ class CUFormComponent extends Component {
                 <label
                   htmlFor='defaultFormContactMessageEx'
                   style={{ color: "#A87293" }}
+                  className="font_medium"
                 >
                   Your message
                 </label>
@@ -104,13 +108,14 @@ class CUFormComponent extends Component {
                     </p>
                     <button
                       type='submit'
-                      class='btn btn-rounded'
+                      className='btn btn-rounded font_bold'
                       style={{
                         color: "#FFFFFF",
                         backgroundColor: "#E37373",
                         width: "200px",
                         height: "45px"
                       }}
+
                     >
                       Submit Message
                     </button>

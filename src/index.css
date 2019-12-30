@@ -47,7 +47,18 @@ body {
   }
  }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+
+
+.font_bold{
+  font-weight: 600;
+}
+
+.font_medium{
+  font-weight: 400; 
+}
+
+.font_size_title{
+  font-size: 1.8vw;
+}
+
+

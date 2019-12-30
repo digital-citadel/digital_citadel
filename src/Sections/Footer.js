@@ -7,7 +7,7 @@ const Footer = () => {
       <MDBContainer className='text-center text-md-left'>
         <MDBRow className='text-center text-md-left mt-3 pb-3'>
           <MDBCol md='3' lg='3' xl='3' className='mx-auto mt-3'>
-            <h6 style={{ color: "#E39797" }} className='mb-4 font-weight-bold'>
+            <h6 style={{ color: "#E39797" }} className='mb-4 font-weight-bold font_bold font_size_title'>
               Digital Citadel
             </h6>
             <p>
@@ -20,7 +20,7 @@ const Footer = () => {
           <MDBCol md='2' lg='2' xl='2' className='mx-auto mt-3'>
             <h6
               style={{ color: "#E39797" }}
-              className='text-uppercase mb-4 font-weight-bold'
+              className='mb-4 font-weight-bold'
             >
               Navigation
             </h6>
@@ -41,7 +41,7 @@ const Footer = () => {
           <MDBCol md='3' lg='2' xl='2' className='mx-auto mt-3'>
             <h6
               style={{ color: "#E39797" }}
-              className='text-uppercase mb-4 font-weight-bold'
+              className='mb-4 font-weight-bold'
             >
               Legal
             </h6>
@@ -59,7 +59,7 @@ const Footer = () => {
           <MDBCol md='4' lg='3' xl='3' className='mx-auto mt-3'>
             <h6
               style={{ color: "#E39797" }}
-              className='text-uppercase mb-4 font-weight-bold'
+              className='mb-4 font-weight-bold'
             >
               Contact
             </h6>

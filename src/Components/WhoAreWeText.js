@@ -5,7 +5,7 @@ const WhoAreWeText = () => {
   return (
     <div className='col-md-4 offset-1 responsive-center'>
       <div style={{ marginTop: "2vh" }}>
-        <p style={{ color: "#BEBABA" }}>
+        <p style={{ color: "#E5EFFF" }}>
           <MDBTypography
             tag='h3'
             variant='h3-responsive'
@@ -15,7 +15,7 @@ const WhoAreWeText = () => {
             Who are we?
           </MDBTypography>
         </p>
-        <p style={{ color: "#BEBABA" }}>
+        <p style={{ color: "#E5EFFF" }}>
           A group of Designers and Computer Engineers based in Germany and
           India, having ourselves equipped with skillsets ready to bring pretty
           much any idea to life. <br /> <br />

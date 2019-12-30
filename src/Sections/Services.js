@@ -23,7 +23,7 @@ export default class Services extends Component {
           <MDBTypography
             tag='h3'
             variant='h3-responsive'
-            className='text-center'
+            className='text-center font_bold '
             style={{ paddingTop: "8vh", color: "#E37373" }}
           >
             Services
