@@ -1,18 +1,12 @@
 {
-  "AWSEBDockerrunVersion": 2,
-  "containerDefinitions": [
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "digitalcitadel/digitalcitadel",
+    "Update": "true"
+  },
+  "Ports": [
     {
-      "name": "digitalcitadel",
-      "image": "digitalcitadel/digitalcitadel",
-      "hostname": "digitalcitadel",
-      "essential": true,
-      "portMappings": [
-        {
-          "hostPort": 80,
-          "containerPort": 80
-        }
-      ],
-      "memory": 128
+      "ContainerPort": "80"
     }
   ]
 }
