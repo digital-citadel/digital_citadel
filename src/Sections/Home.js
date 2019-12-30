@@ -10,7 +10,7 @@ export default class Home extends Component {
     return (
       <MDBContainer fluid>
         <Navbar />
-        <section className='row col-md-12' style={{ height: "100vh" }}>
+        <section className='row col-md-12 col-xs-12 responsive-height'>
           <HPTextComponent />
           <HPIllustration />
 

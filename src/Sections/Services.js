@@ -29,7 +29,7 @@ export default class Services extends Component {
             Services
           </MDBTypography>
           <SPTextComponent />
-          <div className='row col-md-12' style={{ display:"flex", justifyContent:"center", alignItems:"center", padding: "0 13%"}}>{ser}</div>
+          <div className='row col-md-12' style={{ display:"flex", justifyContent:"center", alignItems:"center", padding: "0 13%", margin: "0"}}>{ser}</div>
         </MDBContainer>
       </section>
         )

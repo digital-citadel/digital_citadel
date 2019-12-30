@@ -22,9 +22,9 @@ class ContactUs extends Component {
             Contact Us
           </MDBTypography>
           <CUTextComponent />
-          <div className='row col-md-12'>
-            <CUIllustration />
-            <CUFormComponent />
+          <div className='row col-md-12' style={{ margin: "0" }}>
+              <CUIllustration />
+              <CUFormComponent />
           </div>
         </MDBContainer>
       </section>

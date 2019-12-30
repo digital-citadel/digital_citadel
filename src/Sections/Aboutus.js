@@ -12,7 +12,7 @@ class Aboutus extends Component {
   render() {
     return (
       <section id='about_us'>
-        <MDBContainer fluid>
+        <div className="col-md-12 col-xs-12">
           <MDBTypography
             tag='h3'
             variant='h3-responsive'
@@ -22,11 +22,11 @@ class Aboutus extends Component {
             About Us
           </MDBTypography>
           <APTextComponent />
-          <div className='row col-md-12'>
+          <div className='row col-md-12 col-xs-12'>
             <APIllustration />
             <WhoAreWeText />
           </div>
-        </MDBContainer>
+        </div>
       </section>
     );
   }

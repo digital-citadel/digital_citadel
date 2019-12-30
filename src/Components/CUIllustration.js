@@ -2,15 +2,13 @@ import React from "react";
 
 const CUIllustration = () => {
   return (
-    <div className='col-md-4'>
+    <div className='col-md-6'>
       <img
         alt='Start-up'
         style={{
-          width: "650px",
-          height: "750px",
-          marginTop: "-8vh",
-          marginLeft: "-10vw"
+          
         }}
+        className='responsive-contact-img'
         src='https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/Messaging.png'
       />
     </div>
