@@ -1,0 +1,16 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t digitalcitadel/react-test -f Dockerfile-forTest .
+
+script:
+  - docker run digitalcitadel/react-test npm test -- --coverage
+
+after_success:
+  - docker build -t digitalcitadel/digitalcitadel .
+  # Log in to the docker CLI
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  # Take those images and push them to docker hub
+  - docker push digitalcitadel/digitalcitadel
