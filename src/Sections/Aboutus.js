@@ -16,8 +16,8 @@ class Aboutus extends Component {
           <MDBTypography
             tag='h3'
             variant='h3-responsive'
-            className='text-center'
-            style={{ paddingTop: "8vh", color: "#E37373" }}
+            className="text-center font_bold font_size_title"
+            style={{ paddingTop: "8vh", color: "#E37373"}}
           >
             About Us
           </MDBTypography>

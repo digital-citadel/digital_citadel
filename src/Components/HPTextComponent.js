@@ -4,7 +4,7 @@ const HPTextComponent = () => {
   return (
     <div className='col-md-6'>
       <div style={{ marginTop: "15vh", marginLeft: "10vw" }}>
-        <h1 style={{ color: "#E5EFFF", fontFamily: "proxima-nova" }} class='h1-responsive'>
+        <h1 style={{ color: "#E5EFFF"}} class='h1-responsive'>
           Creating Impactful Digital
         </h1>
         <h1 style={{ color: "#E5EFFF" }} class='h1-responsive'>
@@ -27,7 +27,7 @@ const HPTextComponent = () => {
       </div>
       <button
         type='button'
-        class='btn btn-rounded'
+        className='btn btn-rounded font_bold'
         style={{
           color: "#FFFFFF",
           backgroundColor: "#E37373",
