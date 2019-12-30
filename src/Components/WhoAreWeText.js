@@ -3,14 +3,14 @@ import { MDBTypography } from "mdbreact";
 
 const WhoAreWeText = () => {
   return (
-    <div className='col-md-4 offset-1 text-right'>
+    <div className='col-md-4 offset-1 responsive-center'>
       <div style={{ marginTop: "2vh" }}>
         <p style={{ color: "#E5EFFF" }}>
           <MDBTypography
             tag='h3'
             variant='h3-responsive'
-            className='text-right'
-            style={{ paddingTop: "8vh", color: "#E37373", fontWeight:"450" }}
+            className='responsive-center'
+            style={{ paddingTop: "8vh", color: "#E37373" }}
           >
             Who are we?
           </MDBTypography>

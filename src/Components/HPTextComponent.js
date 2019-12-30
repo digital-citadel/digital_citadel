@@ -32,7 +32,6 @@ const HPTextComponent = () => {
           color: "#FFFFFF",
           backgroundColor: "#E37373",
           marginLeft: "10vw",
-          width: "170px",
           height: "50px"
         }}
       >

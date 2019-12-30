@@ -6,11 +6,48 @@
 body {
   margin: 0;
   background-color: red;
-  
   font-family: 'Proxima Nova', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.responsive-height {
+  height: 100vh;
+}
+
+.responsive-center {
+  text-align: right;
+}
+
+.responsive-contact-img {
+  width: 650px;
+  height: 750px;
+  margin-top: -8vh;
+  margin-left: -10vw;
+}
+
+.service-card .mask {
+  border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 576px) {
+  .responsive-height {
+      height: 100%;
+  }
+
+  .responsive-center {
+    text-align: center;
+  }
+
+  .responsive-contact-img {
+    width: 100%;
+    height: inherit;
+    margin-top: 0;
+    margin-left: 0;
+  }
+ }
+
+
 
 .font_bold{
   font-weight: 600;
@@ -23,4 +60,5 @@ body {
 .font_size_title{
   font-size: 1.8vw;
 }
+
 

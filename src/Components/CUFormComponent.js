@@ -13,10 +13,10 @@ class CUFormComponent extends Component {
   render() {
     const { status } = this.state;
     return (
-      <div className='row col-md-8'>
+      <div className='col-md-6'>
         <MDBContainer>
           <MDBRow>
-            <MDBCol md='6'>
+            <MDBCol md='10' style= {{ marginTop: '20px'}}>
               <form
                 onSubmit={this.submitForm}
                 action='https://formspree.io/mpzqowjw'

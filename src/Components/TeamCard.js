@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-  MDBCol,
+  MDBContainer,
   MDBCard,
   MDBCardUp,
   MDBCardBody,
@@ -19,14 +19,11 @@ class TeamCard extends Component {
   };
 
   render() {
-    const colStyle = { maxWidth: "18rem" };
-
     return (
-      <MDBCol className='col-md-3' style={{ minHeight: "26rem" }}>
+      <MDBContainer className='col-md-3 col-xs-12' style={{ minHeight: "26rem" }}>
         <MDBRotatingCard
           flipped={this.state.flipped}
           className='text-center h-100 w-100'
-          style={colStyle}
         >
           <MDBCard className='face front' style={{ background: "#0A1250" }}>
             <MDBCardUp
@@ -132,7 +129,7 @@ class TeamCard extends Component {
             </MDBCardBody>
           </MDBCard>
         </MDBRotatingCard>
-      </MDBCol>
+      </MDBContainer>
     );
   }
 }

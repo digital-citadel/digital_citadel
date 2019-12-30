@@ -36,7 +36,7 @@ export default class SPCardComponent extends Component {
         style={{ marginBottom: "25px", marginTop: "25px" }}
       >
         <MDBCard
-          className='mb-r'
+          className='mb-r service-card'
           style={{
             width: "18rem",
             margin: "auto",
@@ -47,6 +47,7 @@ export default class SPCardComponent extends Component {
           <MDBCardImage
             className='img-fluid'
             src={this.props.service.images}
+            style={{height: "150px"}}
             waves
           />
           <MDBCardBody>

@@ -30,7 +30,7 @@ export default class Home extends Component {
             The Team
           </MDBTypography>
           <TeamTextComponent />
-          <div className='row col-md-12'>{emps}</div>
+          <div className='row col-md-12' style={{ margin: "0" }}>{emps}</div>
         </MDBContainer>
       </section>
     );
