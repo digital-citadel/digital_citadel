@@ -30,7 +30,17 @@ class Navbar extends Component {
           style={{ marginTop: "20px" }}
         >
           <MDBNavbarBrand>
-            <strong style={{ color: "#E37373", marginLeft: "9vw" }}>
+            <img
+              alt='Start-up'
+              style={{
+                width: "60px",
+                height: "30px"
+                // marginTop: "10vh",
+                // marginLeft: "4vw"
+              }}
+              src={require("../Assets/DC.png")}
+            />
+            <strong style={{ color: "#E37373", marginLeft: "" }}>
               Digital Citadel
             </strong>
           </MDBNavbarBrand>
