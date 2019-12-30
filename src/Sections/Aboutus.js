@@ -11,7 +11,7 @@ class Aboutus extends Component {
   }
   render() {
     return (
-      <section>
+      <section id='about_us'>
         <MDBContainer fluid>
           <MDBTypography
             tag='h3'

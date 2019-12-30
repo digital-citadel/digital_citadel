@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import {
   MDBNavbar,
   MDBNavbarBrand,
@@ -7,7 +8,8 @@ import {
   MDBNavLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBContainer
+  MDBContainer,
+  MDBSmoothScroll
 } from "mdbreact";
 
 class Navbar extends Component {
@@ -47,7 +49,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Home
+                  <MDBSmoothScroll to='home'>Home</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
