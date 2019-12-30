@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { MDBTypography, MDBContainer } from "mdbreact";
 import CUTextComponent from "../Components/CUTextComponent";
 import CUIllustration from "../Components/CUIllustration";
-import ContactFormComponent from "../Components/ContactFormComponent";
+import CUFormComponent from "../Components/CUFormComponent";
 
 class ContactUs extends Component {
   constructor(props) {
@@ -24,7 +24,7 @@ class ContactUs extends Component {
           <CUTextComponent />
           <div className='row col-md-12'>
             <CUIllustration />
-            <ContactFormComponent />
+            <CUFormComponent />
           </div>
         </MDBContainer>
       </section>
