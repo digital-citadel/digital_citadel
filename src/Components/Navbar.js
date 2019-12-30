@@ -59,7 +59,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  About Us
+                  <MDBSmoothScroll to='about_us'>About Us</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -68,7 +68,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Services
+                  <MDBSmoothScroll to='services'>Services</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -77,7 +77,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  The Team
+                  <MDBSmoothScroll to='the_team'>The Team</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -86,7 +86,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Contact Us
+                  <MDBSmoothScroll to='contact_us'>Contact Us</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -95,7 +95,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Join Us
+                  <MDBSmoothScroll to='join_us'>Join Us</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
             </MDBNavbarNav>

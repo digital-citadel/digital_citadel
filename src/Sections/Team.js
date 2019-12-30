@@ -19,18 +19,20 @@ export default class Home extends Component {
       return <TeamCard emp={emp} />;
     });
     return (
-      <MDBContainer fluid>
-        <MDBTypography
-          tag='h3'
-          variant='h3-responsive'
-          className='text-center'
-          style={{ paddingTop: "8vh", color: "#E37373" }}
-        >
-          The Team
-        </MDBTypography>
-        <TeamTextComponent />
-        <div className='row col-md-12'>{emps}</div>
-      </MDBContainer>
+      <section id="the_team">
+        <MDBContainer fluid>
+          <MDBTypography
+            tag='h3'
+            variant='h3-responsive'
+            className='text-center'
+            style={{ paddingTop: "8vh", color: "#E37373" }}
+          >
+            The Team
+          </MDBTypography>
+          <TeamTextComponent />
+          <div className='row col-md-12'>{emps}</div>
+        </MDBContainer>
+      </section>
     );
   }
 }

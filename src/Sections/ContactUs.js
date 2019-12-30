@@ -11,7 +11,7 @@ class ContactUs extends Component {
   }
   render() {
     return (
-      <section>
+      <section id="contact_us">
         <MDBContainer fluid>
           <MDBTypography
             tag='h3'
