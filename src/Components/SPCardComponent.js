@@ -5,17 +5,30 @@ import {
   MDBCardBody,
   MDBCardImage,
   MDBCardTitle,
-  MDBCardText
+  MDBCardText,
+  MDBModal,
+  MDBBtn,
+  MDBModalBody,
+  MDBModalFooter,
+  MDBModalHeader,
+  MDBIcon
 } from "mdbreact";
 
 export default class SPCardComponent extends Component {
   state = {
-    skills: []
+    skills: [],
+    modal7: false
   };
   constructor(props) {
     super(props);
     console.log(props.service);
   }
+  toggle = nr => () => {
+    let modalNumber = "modal" + nr;
+    this.setState({
+      [modalNumber]: !this.state[modalNumber]
+    });
+  };
   render() {
     return (
       <div
@@ -57,17 +70,43 @@ export default class SPCardComponent extends Component {
             </MDBCardText>
             <br />
             <Link
-              to='/'
               className='font-weight-bold mb-3'
               style={{ color: "#e37373" }}
+              onClick={this.toggle(7)}
             >
               Learn More
-              <i
-                style={{ padding: "10px" }}
-                class='fa fa-arrow-right'
-                aria-hidden='true'
-              ></i>
             </Link>
+            <i
+              style={{ color: "#e37373", padding: "10px" }}
+              class='fa fa-arrow-right'
+              aria-hidden='true'
+            ></i>
+            <MDBModal
+              className='modal-notify modal-info text-white'
+              isOpen={this.state.modal7}
+              toggle={this.toggle(7)}
+            >
+              <MDBModalHeader
+                className='text-center'
+                titleClass='w-100'
+                tag='p'
+              >
+                {this.props.service.title}
+              </MDBModalHeader>
+              <MDBModalBody className='text-center'>
+                <MDBIcon
+                  icon='bell'
+                  size='4x'
+                  className='animated rotateIn mb-4'
+                />
+                <p>{this.props.service.information}</p>
+              </MDBModalBody>
+              <MDBModalFooter className='justify-content-center'>
+                <MDBBtn color='primary' outline onClick={this.toggle(7)}>
+                  Close
+                </MDBBtn>
+              </MDBModalFooter>
+            </MDBModal>
           </MDBCardBody>
         </MDBCard>
       </div>
