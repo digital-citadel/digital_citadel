@@ -52,14 +52,14 @@ export default class SPCardComponent extends Component {
           <MDBCardBody>
             <MDBCardTitle>
               <h4
-                className='font-weight-bold mb-3'
+                className='mb-3'
                 style={{ color: "#e37373" }}
               >
                 {this.props.service.title}
               </h4>
             </MDBCardTitle>
             <MDBCardText
-              className='font-weight-bold white-text'
+              className='white-text'
               style={{ margin: "0" }}
             >
               {this.props.service.description.map(desc => {
@@ -70,7 +70,7 @@ export default class SPCardComponent extends Component {
             </MDBCardText>
             <br />
             <Link
-              className='font-weight-bold mb-3'
+              className='mb-3'
               style={{ color: "#e37373" }}
               onClick={this.toggle(7)}
             >
