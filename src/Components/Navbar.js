@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import {
   MDBNavbar,
   MDBNavbarBrand,
@@ -7,7 +8,8 @@ import {
   MDBNavLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBContainer
+  MDBContainer,
+  MDBSmoothScroll
 } from "mdbreact";
 
 class Navbar extends Component {
@@ -30,7 +32,8 @@ class Navbar extends Component {
           style={{ marginTop: "20px" }}
         >
           <MDBNavbarBrand>
-            <strong style={{ color: "#E37373", marginLeft: "9vw" }}>
+
+            <strong style={{ color: "#E37373", marginLeft: "" }}>
               Digital Citadel
             </strong>
           </MDBNavbarBrand>
@@ -47,7 +50,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Home
+                  <MDBSmoothScroll to='home'>Home</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -56,7 +59,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  About Us
+                  <MDBSmoothScroll to='about_us'>About Us</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -65,7 +68,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Services
+                  <MDBSmoothScroll to='services'>Services</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -74,7 +77,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  The Team
+                  <MDBSmoothScroll to='the_team'>The Team</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -83,7 +86,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Contact Us
+                  <MDBSmoothScroll to='contact_us'>Contact Us</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
@@ -92,7 +95,7 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  Join Us
+                  <MDBSmoothScroll to='join_us'>Join Us</MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
             </MDBNavbarNav>

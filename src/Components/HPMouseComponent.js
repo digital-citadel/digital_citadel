@@ -1,28 +1,30 @@
 import React from "react";
-import { MDBIcon } from "mdbreact";
+import { MDBIcon, MDBAnimation } from "mdbreact";
 
 const HPMouseComponent = () => {
   return (
-    <div className='col-md-12 text-center' style={{ padding: "8vh 0" }}>
+    <div className='col-md-12 text-center' style={{ padding: "9vh" }}>
       <div>
-        <MDBIcon
-          style={{
-            bottom: "2vh",
-            color: "#4285F4",
-            right: "0",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center"
-          }}
-          icon='mouse'
-          size='2x'
-        />
-        <p
-          className='text-center'
-          style={{ color: "#4285F4", marginTop: "10px", marginBottom: "0" }}
-        >
-          Scroll Down
-        </p>
+        <MDBAnimation type='bounce' infinite duration='2s' delay='2s'>
+          <MDBIcon
+            style={{
+              marginTop: "9vh",
+              color: "#4285F4",
+              right: "0",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+            icon='mouse'
+            size='2x'
+          />
+          <p
+            className='text-center'
+            style={{ color: "#4285F4", marginTop: "10px", marginBottom: "0" }}
+          >
+            Scroll Down
+          </p>
+        </MDBAnimation>
       </div>
     </div>
   );

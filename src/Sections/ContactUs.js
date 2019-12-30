@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import { MDBTypography, MDBContainer } from "mdbreact";
-import APTextComponent from "../Components/APTextComponent";
-import APIllustration from "../Components/APIllustration";
-import WhoAreWeText from "../Components/WhoAreWeText";
+import CUTextComponent from "../Components/CUTextComponent";
+import CUIllustration from "../Components/CUIllustration";
+import CUFormComponent from "../Components/CUFormComponent";
 
-class Aboutus extends Component {
+class ContactUs extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
   render() {
     return (
-      <section id='about_us'>
+      <section id="contact_us">
         <MDBContainer fluid>
           <MDBTypography
             tag='h3'
@@ -19,12 +19,12 @@ class Aboutus extends Component {
             className='text-center'
             style={{ paddingTop: "8vh", color: "#E37373" }}
           >
-            About Us
+            Contact Us
           </MDBTypography>
-          <APTextComponent />
+          <CUTextComponent />
           <div className='row col-md-12'>
-            <APIllustration />
-            <WhoAreWeText />
+            <CUIllustration />
+            <CUFormComponent />
           </div>
         </MDBContainer>
       </section>
@@ -32,4 +32,4 @@ class Aboutus extends Component {
   }
 }
 
-export default Aboutus;
+export default ContactUs;
