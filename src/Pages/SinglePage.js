@@ -4,6 +4,7 @@ import Aboutus from "../Sections/Aboutus";
 import Services from "../Sections/Services";
 import Team from "../Sections/Team";
 import ContactUs from "../Sections/ContactUs";
+import Navbar from "../Components/Navbar";
 import Footer from "../Sections/Footer";
 
 class SinglePage extends Component {
@@ -14,6 +15,7 @@ class SinglePage extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Home />
 
         <Aboutus />
