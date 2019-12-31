@@ -24,12 +24,11 @@ class Navbar extends Component {
 
   render() {
     return (
-      <MDBContainer fluid>
+      <MDBContainer fluid className="no-padding">
         <MDBNavbar
           color='#0D0B34'
           dark
           expand='md'
-          style={{ marginTop: "20px" }}
         >
           <MDBNavbarBrand>
             <img

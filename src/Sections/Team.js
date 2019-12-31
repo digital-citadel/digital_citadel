@@ -19,7 +19,7 @@ export default class Home extends Component {
       return <TeamCard emp={emp} />;
     });
     return (
-      <section id="the_team">
+      <section id="the_team" className="background-4">
         <MDBContainer fluid>
           <MDBTypography
             tag='h3'

@@ -23,11 +23,11 @@ export default class Home extends Component {
       return <TeamCard emp={emp} />;
     });
     return (
-      <MDBContainer fluid>
+      <MDBContainer fluid className="no-padding">
         <Navbar />
         <section
           id='home'
-          className='row col-md-12 col-xs-12 responsive-height'
+          className='row col-md-12 col-xs-12 responsive-height background-1'
         >
           <HPTextComponent />
           <HPIllustration />

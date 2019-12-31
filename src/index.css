@@ -30,17 +30,50 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-.font_bold{
-  font-weight: 600;
+.no-padding {
+  padding: 0 !important;
 }
 
-.font_medium{
-  font-weight: 400; 
+.background-1 {
+  background-image: url("Assets/HomePageBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: -25px;
 }
 
-.font_size_title{
-  font-size: 1.8vw;
+.background-2 {
+  background-image: url("Assets/AboutUsPageBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: 58px;
 }
+
+.background-3 {
+  background-image: url(Assets/ServicesPageBackground.png);
+    background-size: auto;
+    background-position-x: -125px;
+    background-size: contain;
+    background-size: 118% 100%;
+}
+
+.background-4 {
+  background-image: url(Assets/TeamPageBackground.png);
+    background-size: auto;
+    background-position-x: -125px;
+    background-size: contain;
+    background-size: 118% 100%;
+}
+
+.background-5 {
+  background-image: url(Assets/ContactUSPageBackground.png);
+  background-size: auto;
+  background-position-x: -125px;
+  background-size: contain;
+  background-size: 118% 100%;
+}
+
 
 /*************************************** Please write all the CSS code before this line *****************************************/
 
