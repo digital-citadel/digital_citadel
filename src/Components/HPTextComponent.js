@@ -1,10 +1,11 @@
 import React from "react";
+import { MDBSmoothScroll } from "mdbreact";
 
 const HPTextComponent = () => {
   return (
     <div className='col-md-6'>
-      <div style={{ marginTop: "15vh", marginLeft: "10vw" }}>
-        <h1 style={{ color: "#E5EFFF"}} class='h1-responsive'>
+      <div style={{ marginTop: "12vh", marginLeft: "10vw" }}>
+        <h1 style={{ color: "#E5EFFF" }} class='h1-responsive'>
           Creating Impactful Digital
         </h1>
         <h1 style={{ color: "#E5EFFF" }} class='h1-responsive'>
@@ -32,10 +33,13 @@ const HPTextComponent = () => {
           color: "#FFFFFF",
           backgroundColor: "#E37373",
           marginLeft: "10vw",
-          height: "50px"
+          width: "200px",
+          height: "45px"
         }}
       >
-        Find out more
+        <MDBSmoothScroll to='about_us' style={{ marginTop: "-6px" }}>
+          Find out more
+        </MDBSmoothScroll>
       </button>
     </div>
   );

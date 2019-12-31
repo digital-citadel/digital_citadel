@@ -74,7 +74,8 @@ export default [
     name: "Anglita Alvares",
     role: "Project and Operations",
     oneLiner: "6+ years of experience",
-    description: "",
+    description:
+      "I am a full stack developer having extensive experience in requirement analysis,designing, programming, data modeling and project management. I am passionate about translating business requirements into technical specifications and help building simplified and user centric software solutions.",
     skils: ["Project Management", "Development", "Data Analysis", "DB design"],
     img:
       "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/WhatsApp%20Image%202019-12-29%20at%204.25.15%20PM.jpeg",
@@ -121,7 +122,7 @@ export default [
     role: "Frontend designer",
     oneLiner: "4+ years of experience",
     description:
-      "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "I am web and software development enthusiast with focus on front end development. Have completed a master degree in Computer Science, I am now exploring Machine Learning. I love writing <code> no matter in which language.",
     skils: [
       "Web Developer",
       "Mobile Developer",
@@ -154,7 +155,7 @@ export default [
     role: "Front End Developer",
     oneLiner: "3+ years of experience",
     description:
-      "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "I am a Passionate Front End Web Developer. Making the application visually beautiful and functionally smooth is my job. Anything related to web technology and frameworks always interests me. Currently on a never ending learning cycle.",
     skils: ["Front-End", "Back-End", "DevOps", "Cloud Management"],
     img:
       "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/Ashwin.png",

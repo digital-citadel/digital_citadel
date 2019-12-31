@@ -3,11 +3,15 @@ import { MDBIcon, MDBAnimation } from "mdbreact";
 
 const HPMouseComponent = () => {
   return (
+
     <div className='col-md-12 text-center' style={{ padding: "1vh" }}>
+
       <div>
         <MDBAnimation type='bounce' infinite duration='2s' delay='2s'>
           <MDBIcon
             style={{
+
+
               color: "#4285F4",
               right: "0",
               display: "flex",
@@ -19,9 +23,9 @@ const HPMouseComponent = () => {
           />
           <p
             className='text-center'
-            style={{ color: "#4285F4", marginTop: "10px", marginBottom: "0" }}
+            style={{ color: "#4285F4", marginTop: "10px" }}
           >
-            Scroll Down
+            Or Scroll Down
           </p>
         </MDBAnimation>
       </div>
