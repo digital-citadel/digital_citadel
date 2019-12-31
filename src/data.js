@@ -15,7 +15,7 @@ export default [
   },
   {
     id: 2,
-    name: "Nithin Bharadwaj",
+    name: "Nithin Bhardwaj",
     role: "DevOps Engineer",
     oneLiner: "3+ years of experience",
     description:
@@ -124,10 +124,10 @@ export default [
   {
     id: 10,
     name: "Pavan CT",
-    role: "UI/UX designer",
+    role: "Full-Stack Developer",
     oneLiner: "3+ years of experience",
     description:
-      "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "I am a Full-stack developer. I like databases, front-end frameworks and backend. Also, pursuing my master's, I have gained immense hands on exposure on cloud infrastructures and Development Operations.",
     skils: ["Front-End", "Back-End", "DevOps", "Cloud Management"],
     img:
       "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/FB_IMG_1577639897138__01.jpg",
