@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBTypography } from "mdbreact";
+import { MDBTypography, MDBAnimation } from "mdbreact";
 import APTextComponent from "../Components/APTextComponent";
 import APIllustration from "../Components/APIllustration";
 import WhoAreWeText from "../Components/WhoAreWeText";
@@ -11,18 +11,19 @@ class Aboutus extends Component {
   }
   render() {
     return (
-      <section id='about_us' className="background-2">
+      <section id='about_us' className='background-2'>
         <div className='col-md-12 col-xs-12'>
-          <MDBTypography
-            tag='h3'
-            variant='h3-responsive'
-            className='text-center font_bold font_size_title'
+          <MDBAnimation reveal type='zoomIn' duration='1s'>
+            <MDBTypography
+              tag='h3'
+              variant='h3-responsive'
+              className='text-center font_bold font_size_title'
+              style={{ paddingTop: "1vh", color: "#E37373" }}
+            >
+              About Us
+            </MDBTypography>
+          </MDBAnimation>
 
-            style={{ paddingTop: "1vh", color: "#E37373" }}
-
-          >
-            About Us
-          </MDBTypography>
           <APTextComponent />
           <div className='row col-md-12 col-xs-12'>
             <APIllustration />

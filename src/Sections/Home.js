@@ -4,9 +4,7 @@ import Navbar from "../Components/Navbar";
 import HPTextComponent from "../Components/HPTextComponent";
 import HPIllustration from "../Components/HPIllustration";
 import HPMouseComponent from "../Components/HPMouseComponent";
-import TeamCard from "../Components/TeamCard";
 import data from "./data";
-import { MDBRow } from "mdbreact";
 
 export default class Home extends Component {
   state = {
@@ -19,11 +17,8 @@ export default class Home extends Component {
     });
   }
   render() {
-    let emps = this.state.team.map(emp => {
-      return <TeamCard emp={emp} />;
-    });
     return (
-      <MDBContainer fluid className="no-padding">
+      <MDBContainer fluid className='no-padding'>
         <Navbar />
         <section
           id='home'
@@ -31,7 +26,6 @@ export default class Home extends Component {
         >
           <HPTextComponent />
           <HPIllustration />
-
           <HPMouseComponent />
         </section>
       </MDBContainer>
