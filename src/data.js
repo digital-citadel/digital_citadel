@@ -47,7 +47,7 @@ export default [
     role: "Frontend developer",
     oneLiner: "5+ years of experience",
     description:
-      "Hai! I am a front-end web developer. I basically bring a website to life with my magic CSS fingers. Also pursuing my masters in Computer Science, I speacilize in front-end web framkeworks and technologies.   ",
+      "Hai! I am a front-end web developer. I basically bring a website to life with my magic CSS fingers. Also pursuing my masters in Computer Science, I speacilize in front-end web frameworks and technologies.",
     skils: ["Front-End", "Web design", "Database Design", "Web Development"],
     img:
       "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/Screenshot_20191229-180908.jpg",
@@ -157,7 +157,7 @@ export default [
       "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
     skils: ["Front-End", "Back-End", "DevOps", "Cloud Management"],
     img:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/FB_IMG_1577639897138__01.jpg",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/Ashwin.png",
     Github: "https://github.com/Pavanct",
     LinkedIn: "https://linkedin.com/in/pavan-chitradurga-thammanna",
     Facebook: "https://www.facebook.com/pavan.ct.395"
