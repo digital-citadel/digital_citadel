@@ -32,6 +32,12 @@ class Navbar extends Component {
           style={{ marginTop: "20px" }}
         >
           <MDBNavbarBrand>
+            <img
+              src='https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/DC_new.png'
+              height='40'
+              alt='logo'
+              style={{ marginRight: "10px", marginLeft: "130px" }}
+            />
             <strong
               style={{ color: "#E37373", marginLeft: "" }}
               className='font_bold font_size_title'
