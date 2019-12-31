@@ -33,11 +33,9 @@ const HPTextComponent = () => {
           color: "#FFFFFF",
           backgroundColor: "#E37373",
           marginLeft: "10vw",
-          width: "200px",
-          height: "45px"
         }}
       >
-        <MDBSmoothScroll to='about_us' style={{ marginTop: "-6px" }}>
+        <MDBSmoothScroll to='about_us' >
           Find out more
         </MDBSmoothScroll>
       </button>

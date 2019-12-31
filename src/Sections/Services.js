@@ -18,7 +18,7 @@ export default class Services extends Component {
             return <SPCardComponent service={service} />;
           });
         return (
-        <section id="services">
+        <section id="services" className="background-3">
         <MDBContainer fluid>
           <MDBTypography
             tag='h3'

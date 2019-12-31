@@ -30,6 +30,51 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
+.no-padding {
+  padding: 0 !important;
+}
+
+.background-1 {
+  background-image: url("Assets/HomePageBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: -25px;
+}
+
+.background-2 {
+  background-image: url("Assets/AboutUsPageBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: 58px;
+}
+
+.background-3 {
+  background-image: url(Assets/ServicesPageBackground.png);
+    background-size: auto;
+    background-position-x: -125px;
+    background-size: contain;
+    background-size: 118% 100%;
+}
+
+.background-4 {
+  background-image: url(Assets/TeamPageBackground.png);
+    background-size: auto;
+    background-position-x: -125px;
+    background-size: contain;
+    background-size: 118% 100%;
+}
+
+.background-5 {
+  background-image: url(Assets/ContactUSPageBackground.png);
+  background-size: auto;
+  background-position-x: -125px;
+  background-size: contain;
+  background-size: 118% 100%;
+}
+
+
 @media (max-width: 576px) {
   .responsive-height {
       height: 100%;
