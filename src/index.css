@@ -30,7 +30,24 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-@media (max-width: 576px) {
+.font_bold{
+  font-weight: 600;
+}
+
+.font_medium{
+  font-weight: 400; 
+}
+
+.font_size_title{
+  font-size: 1.8vw;
+}
+
+/*************************************** Please write all the CSS code before this line *****************************************/
+
+/**** Responsive Code ****/
+
+/** Mobiles **/
+@media only screen and (max-width: 576px) {
   .responsive-height {
       height: 100%;
   }
@@ -45,20 +62,32 @@ body {
     margin-top: 0;
     margin-left: 0;
   }
+
+  .font_size_title{
+    font-size: 3.8vw;
+  }
  }
 
+ /** Tablets **/
+ @media only screen and (min-width: 576px) and (max-width: 800px) {
+  .responsive-contact-img {
+    width: 100%;
+    height: inherit;
+    margin-top: 0;
+    margin-left: 0;
+  }
 
+  .responsive-height {
+    height: 100%;
+  } 
 
-.font_bold{
-  font-weight: 600;
-}
+  .responsive-center {
+    text-align: center;
+  }
 
-.font_medium{
-  font-weight: 400; 
-}
-
-.font_size_title{
-  font-size: 1.8vw;
-}
+  .font_size_title{
+    font-size: 3.8vw;
+  }
+ }
 
 
