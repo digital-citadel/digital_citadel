@@ -64,7 +64,7 @@ export default [
       "I specialize in Visual and Graphic Design. Also pursuing M.Sc in Germany, I specialize in creating UI Components and Usability Engineering. UX, User Research and Javascript is my area of expertise. Can't wait to hear your amazing Ideas!  ",
     skils: ["UI/UX", "Adobe XD", "Illustrator", "InDesign"],
     img:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/shivani.jpeg",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/IMG-20190401-WA0014.jpg",
     Github: "https://github.com/shivanimoray",
     LinkedIn: "https://linkedin.com/in/shivani-moray",
     Facebook: "https://www.facebook.com/shivani.moray"
@@ -84,26 +84,12 @@ export default [
     Facebook: "https://www.facebook.com/anglita.alvares"
   },
   {
-    id: 7,
-    name: "Omar Syed",
-    role: "UI/UX Designer",
-    oneLiner: "5+ years of experience",
-    description:
-      "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-    skils: ["UI/UX", "Axure RP", "Customer Management", "Adobe"],
-    img:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/WhatsApp%20Image%202019-12-29%20at%204.29.56%20PM.jpeg",
-    Github: "https://github.com/omarsyd",
-    LinkedIn: "https://linkedin.com/in/omar-syed-bb68ba55",
-    Facebook: "https://www.facebook.com/farooq.omar.syed"
-  },
-  {
     id: 8,
     name: "Preethi Venkatesh",
     role: "Developer",
     oneLiner: "4+ years of experience",
     description:
-      "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamCatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "I am a developer by choice. I love to design and develop mobile and web applications. I have a master's degree in CS and modelling databases is my area of expertise.",
     skils: [
       "Web Developer",
       "Mobile Developer",

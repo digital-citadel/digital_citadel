@@ -5,7 +5,7 @@ import Services from "../Sections/Services";
 import Team from "../Sections/Team";
 import ContactUs from "../Sections/ContactUs";
 import Footer from "../Sections/Footer";
-import { Element } from "react-scroll";
+
 class SinglePage extends Component {
   constructor(props) {
     super(props);
