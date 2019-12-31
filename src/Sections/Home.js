@@ -8,9 +8,6 @@ import TeamCard from "../Components/TeamCard";
 import data from "./data";
 import { MDBRow } from "mdbreact";
 
-
-
-
 export default class Home extends Component {
   state = {
     team: []
@@ -22,12 +19,16 @@ export default class Home extends Component {
     });
   }
   render() {
-
-    let emps = this.state.team.map(emp => { return <TeamCard emp={emp} /> })
+    let emps = this.state.team.map(emp => {
+      return <TeamCard emp={emp} />;
+    });
     return (
       <MDBContainer fluid>
         <Navbar />
-        <section className='row col-md-12 col-xs-12 responsive-height'>
+        <section
+          id='home'
+          className='row col-md-12 col-xs-12 responsive-height'
+        >
           <HPTextComponent />
           <HPIllustration />
 

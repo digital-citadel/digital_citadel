@@ -1,5 +1,11 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {
+  MDBCol,
+  MDBContainer,
+  MDBRow,
+  MDBFooter,
+  MDBSmoothScroll
+} from "mdbreact";
 
 const Footer = () => {
   return (
@@ -7,7 +13,10 @@ const Footer = () => {
       <MDBContainer className='text-center text-md-left'>
         <MDBRow className='text-center text-md-left mt-3 pb-3'>
           <MDBCol md='3' lg='3' xl='3' className='mx-auto mt-3'>
-            <h6 style={{ color: "#E39797" }} className='mb-4 font-weight-bold font_bold font_size_title'>
+            <h6
+              style={{ color: "#E39797" }}
+              className='mb-4 font-weight-bold font_bold font_size_title'
+            >
               Digital Citadel
             </h6>
             <p>
@@ -18,31 +27,25 @@ const Footer = () => {
           </MDBCol>
           <hr className='w-100 clearfix d-md-none' />
           <MDBCol md='2' lg='2' xl='2' className='mx-auto mt-3'>
-            <h6
-              style={{ color: "#E39797" }}
-              className='mb-4 font-weight-bold'
-            >
+            <h6 style={{ color: "#E39797" }} className='mb-4 font-weight-bold'>
               Navigation
             </h6>
             <p>
-              <a href='#!'>Home</a>
+              <MDBSmoothScroll to='home'>Home</MDBSmoothScroll>
             </p>
             <p>
-              <a href='#!'>About Us</a>
+              <MDBSmoothScroll to='about_us'>About Us</MDBSmoothScroll>
             </p>
             <p>
-              <a href='#!'>Services</a>
+              <MDBSmoothScroll to='services'>Services</MDBSmoothScroll>
             </p>
             <p>
-              <a href='#!'>Team</a>
+              <MDBSmoothScroll to='the_team'>The Team</MDBSmoothScroll>
             </p>
           </MDBCol>
           <hr className='w-100 clearfix d-md-none' />
           <MDBCol md='3' lg='2' xl='2' className='mx-auto mt-3'>
-            <h6
-              style={{ color: "#E39797" }}
-              className='mb-4 font-weight-bold'
-            >
+            <h6 style={{ color: "#E39797" }} className='mb-4 font-weight-bold'>
               Legal
             </h6>
             <p>
@@ -57,10 +60,7 @@ const Footer = () => {
           </MDBCol>
           <hr className='w-100 clearfix d-md-none' />
           <MDBCol md='4' lg='3' xl='3' className='mx-auto mt-3'>
-            <h6
-              style={{ color: "#E39797" }}
-              className='mb-4 font-weight-bold'
-            >
+            <h6 style={{ color: "#E39797" }} className='mb-4 font-weight-bold'>
               Contact
             </h6>
             <p>
