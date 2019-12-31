@@ -4,7 +4,7 @@ import { MDBIcon, MDBAnimation } from "mdbreact";
 const HPMouseComponent = () => {
   return (
 
-    <div className='col-md-12 text-center' style={{ padding: "1vh" }}>
+    <div className='col-md-12 text-center hide-mouse' style={{ padding: "1vh" }}>
 
       <div>
         <MDBAnimation type='bounce' infinite duration='2s' delay='2s'>
