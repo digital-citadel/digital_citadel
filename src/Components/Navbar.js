@@ -35,7 +35,8 @@ class Navbar extends Component {
               src='https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/DC_new.png'
               height='40'
               alt='logo'
-              style={{ marginRight: "10px", marginLeft: "130px" }}
+              style={{ marginRight: "10px"}}
+              className="responsive-logo"
             />
             <strong
               style={{ color: "#E37373", marginLeft: "" }}

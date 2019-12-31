@@ -27,7 +27,7 @@ export default class Home extends Component {
         <Navbar />
         <section
           id='home'
-          className='row col-md-12 col-xs-12 responsive-height background-1'
+          className='row col-md-12 col-xs-12 responsive-height background-1 no-margin'
         >
           <HPTextComponent />
           <HPIllustration />

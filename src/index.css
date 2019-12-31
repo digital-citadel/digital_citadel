@@ -19,6 +19,10 @@ body {
   text-align: right;
 }
 
+.responsive-logo {
+  margin-left: 130px;
+}
+
 .responsive-contact-img {
   width: 650px;
   height: 750px;
@@ -34,12 +38,16 @@ body {
   padding: 0 !important;
 }
 
+.no-margin {
+  margin: 0 !important;
+}
+
 .background-1 {
   background-image: url("Assets/HomePageBackground.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-position-x: -25px;
+  background-position-x: -50px;
 }
 
 .background-2 {
@@ -98,6 +106,18 @@ body {
 
   .font_size_title{
     font-size: 3.8vw;
+  }
+
+  .responsive-logo {
+    margin-left: 0px;
+  }
+
+  .background-1, .background-2, .background-3, .background-4, .background-5 {
+    background: none;
+  }
+
+  .hide-mouse {
+    display: none;
   }
  }
 
