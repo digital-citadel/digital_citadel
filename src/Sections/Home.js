@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar";
 import HPTextComponent from "../Components/HPTextComponent";
 import HPIllustration from "../Components/HPIllustration";
 import HPMouseComponent from "../Components/HPMouseComponent";
-import data from "./data";
+import data from "../data";
 
 export default class Home extends Component {
   state = {

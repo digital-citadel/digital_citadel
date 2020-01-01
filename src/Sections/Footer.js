@@ -78,7 +78,7 @@ const Footer = () => {
                 <i className='fa fa-home mr-3' /> Friedrichstr. 49 Dossenheim
               </p>
               <p>
-                <i className='fa fa-envelope mr-3' /> info@digitalcitadel.com
+                <i className='fa fa-envelope mr-3' /> info.digitalcitadel@gmail.com
               </p>
               <p>
                 <i className='fa fa-phone mr-3' /> +49 1744649138
