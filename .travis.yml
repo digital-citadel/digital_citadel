@@ -11,9 +11,9 @@ deploy:
   edge: true
   provider: elasticbeanstalk
   region: eu-central-1
-  app:  digitalcitadel
-  env: Digitalcitadel-env
-  bucket_name: elasticbeanstalk-eu-central-1-627199476044
+  app:  digital citadel
+  env: DigitalCitadel-env
+  bucket_name: elasticbeanstalk-eu-central-1-817711046507
   bucket_path: digitalcitadel
   on:
     branch: master
