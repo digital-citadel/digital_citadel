@@ -105,7 +105,7 @@ export default [
   {
     id: 9,
     name: "Ashwini Patil",
-    role: "Frontend designer",
+    role: "Software Engineer",
     oneLiner: "4+ years of experience",
     description:
       "I am web and software development enthusiast with focus on front end development. Have completed a master degree in Computer Science, I am now exploring Machine Learning. I love writing <code> no matter in which language.",
@@ -136,7 +136,7 @@ export default [
     Facebook: "https://www.facebook.com/pavan.ct.395"
   },
   {
-    id: 10,
+    id: 11,
     name: "Ashwin Bharadwaj",
     role: "Front End Developer",
     oneLiner: "3+ years of experience",
