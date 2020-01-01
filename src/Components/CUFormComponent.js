@@ -42,7 +42,8 @@ class CUFormComponent extends Component {
                     className='form-control'
                     style={{
                       backgroundColor: "#0D0B34",
-                      border: "1px solid #4285F4"
+                      border: "1px solid #4285F4",
+                      color: "white"
                     }}
                     required
                   />
@@ -61,7 +62,8 @@ class CUFormComponent extends Component {
                     className='form-control'
                     style={{
                       backgroundColor: "#0D0B34",
-                      border: "1px solid #4285F4"
+                      border: "1px solid #4285F4",
+                      color: "white"
                     }}
                     required
                   />
@@ -81,7 +83,8 @@ class CUFormComponent extends Component {
                     className='form-control'
                     style={{
                       backgroundColor: "#0D0B34",
-                      border: "1px solid #4285F4"
+                      border: "1px solid #4285F4",
+                      color: "white"
                     }}
                     required
                   />
@@ -101,7 +104,8 @@ class CUFormComponent extends Component {
                     rows='3'
                     style={{
                       backgroundColor: "#0D0B34",
-                      border: "1px solid #4285F4"
+                      border: "1px solid #4285F4",
+                      color: "white"
                     }}
                     required
                   />
