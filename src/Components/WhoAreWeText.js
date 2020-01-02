@@ -6,7 +6,7 @@ const WhoAreWeText = () => {
     <div className='col-md-4 offset-1 responsive-center'>
       <div style={{ marginTop: "2vh" }}>
         <p style={{ color: "#E5EFFF" }}>
-          <MDBAnimation reveal type='zoomIn' duration='1s' delay='2s'>
+          <MDBAnimation reveal type='zoomIn' duration='1s' delay='1s'>
             <MDBTypography
               tag='h3'
               variant='h3-responsive'
@@ -17,7 +17,7 @@ const WhoAreWeText = () => {
             </MDBTypography>
           </MDBAnimation>
         </p>
-        <MDBAnimation reveal type='zoomIn' duration='1s' delay='2s'>
+        <MDBAnimation reveal type='zoomIn' duration='1s' delay='1s'>
           <p style={{ color: "#E5EFFF" }}>
             A group of Designers and Computer Engineers based in Germany and
             India, having ourselves equipped with skillsets ready to bring
