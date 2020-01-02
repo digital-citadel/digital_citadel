@@ -15,15 +15,14 @@ class Gallery extends React.Component {
     photoIndex: 0,
     isOpen: false,
     images: [
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Adidas.jpg",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Channel.jpg",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Daily_UX_1.jpg",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Explore_North.jpg",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Marshmello.jpg",
-      "https://github.com/digital-citadel/digital_citadel/blob/lightbox/src/Designs/Meetings.jpg?raw=true",
-      "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg",
-      "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg",
-      "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg"
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png"
     ]
   };
 
