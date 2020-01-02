@@ -5,8 +5,9 @@ import Services from "../Sections/Services";
 import Team from "../Sections/Team";
 import ContactUs from "../Sections/ContactUs";
 import Footer from "../Sections/Footer";
+import TakeMeToGalleryComponent from "../Components/TakeMeToGalleryComponent";
 
-class SinglePage extends Component {
+class MainPage extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -15,11 +16,10 @@ class SinglePage extends Component {
     return (
       <div>
         <Home />
-
         <Aboutus />
-
         <Services />
         <Team />
+        <TakeMeToGalleryComponent />
         <ContactUs />
         <Footer />
       </div>
@@ -27,4 +27,4 @@ class SinglePage extends Component {
   }
 }
 
-export default SinglePage;
+export default MainPage;
