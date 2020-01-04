@@ -64,17 +64,17 @@ class Gallery extends React.Component {
   render() {
     const { photoIndex, isOpen, images } = this.state;
     return (
-      <section id='gallery' className='background-4'>
-        <MDBAnimation reveal type='zoomIn' duration='2s'>
-          <MDBTypography
-            tag='h3'
-            variant='h3-responsive'
-            className='text-center font_bold font_size_title'
-            style={{ paddingTop: "8vh", color: "#E37373" }}
-          >
-            Gallery
-          </MDBTypography>
-        </MDBAnimation>
+      <section className='background-4'>
+        {/* <MDBAnimation reveal type='zoomIn' duration='2s'> */}
+        <MDBTypography
+          tag='h3'
+          variant='h3-responsive'
+          className='text-center font_bold font_size_title'
+          style={{ paddingTop: "8vh", color: "#E37373" }}
+        >
+          Gallery
+        </MDBTypography>
+        {/* </MDBAnimation> */}
         <GalleryTextComponent />
         <MDBContainer className='mt-5'>
           <div className='mdb-lightbox'>

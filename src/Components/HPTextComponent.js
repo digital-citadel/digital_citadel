@@ -3,7 +3,7 @@ import { MDBSmoothScroll, MDBAnimation } from "mdbreact";
 
 const HPTextComponent = () => {
   return (
-    <div className='col-md-6'>
+    <div className='col-md-6' style={{ marginTop: "12vh" }}>
       <MDBAnimation type='slideInLeft' duration='2s'>
         <div style={{ marginTop: "12vh", marginLeft: "10vw" }}>
           <h1 style={{ color: "#E5EFFF" }} class='h1-responsive'>

@@ -25,7 +25,12 @@ class Navbar extends Component {
   render() {
     return (
       <MDBContainer fluid className='no-padding'>
-        <MDBNavbar color='#0D0B34' dark expand='md'>
+        <MDBNavbar
+          style={{ backgroundColor: "#0D0B34" }}
+          dark
+          expand='md'
+          fixed='top'
+        >
           <MDBNavbarBrand>
             <img
               src='https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/DC_new.png'
@@ -103,6 +108,7 @@ class Navbar extends Component {
                 <MDBNavLink
                   style={{ color: "#E37373", padding: "1rem" }}
                   className='waves-effect waves-light'
+                  exact
                   to='/gallery'
                 >
                   Gallery
