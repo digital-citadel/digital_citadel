@@ -17,12 +17,15 @@ class Gallery extends React.Component {
       photoIndex: 0,
       isOpen: false,
       images: [
-        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
-        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
-        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
-        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
-        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
-        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg"
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-2.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-3.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Explore_North.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Lighthouse.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Miami%20Beach.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Daily_UX_1.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Travel.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/ReWork.jpg"
       ]
     };
   }
