@@ -27,8 +27,10 @@ class Gallery extends React.Component {
         "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Travel.jpg",
         "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/ReWork%203.jpg",
         "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Mobile-Health.jpg",
-        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/MobileEcommerce.jpg",
-        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/MarketingYou.jpg"
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/MobileEcommerce%202.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Meeting.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Brand.jpg",
+        "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Digi.jpg"
       ]
     };
   }
