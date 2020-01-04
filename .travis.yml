@@ -2,22 +2,18 @@ language: generic
 sudo: required
 services:
   - docker
-
 before_install:
   - docker build -t digitalcitadel/digitalcitadel .
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-
 after_success:
-  # Take those images and push them to docker hub
   - docker push digitalcitadel/digitalcitadel
-
 deploy:
   edge: true
   provider: elasticbeanstalk
   region: eu-central-1
-  app:  digitalcitadel
-  env: Digitalcitadel-env
-  bucket_name: elasticbeanstalk-eu-central-1-627199476044
+  app:  digital citadel
+  env: DigitalCitadel-env
+  bucket_name: elasticbeanstalk-eu-central-1-817711046507
   bucket_path: digitalcitadel
   on:
     branch: master
