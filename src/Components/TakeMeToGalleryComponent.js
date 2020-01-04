@@ -30,6 +30,7 @@ const TakeMeToGalleryComponent = () => {
               style={{
                 color: "#FFFFFF"
               }}
+              exact
               to='/gallery'
             >
               Take me there!

@@ -3,7 +3,7 @@ import { MDBAnimation } from "mdbreact";
 
 const HPIllustration = () => {
   return (
-    <div className='col-md-6 col-xs-12 col-sm-12'>
+    <div className='col-md-6 col-xs-12 col-sm-12' style={{ marginTop: "12vh" }}>
       <MDBAnimation type='slideInRight' duration='2s'>
         <img
           alt='Start-up'
