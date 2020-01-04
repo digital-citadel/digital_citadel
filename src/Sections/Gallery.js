@@ -11,20 +11,21 @@ import GalleryTextComponent from "../Components/GalleryTextComponent";
 import "../Gallery.css";
 
 class Gallery extends React.Component {
-  state = {
-    photoIndex: 0,
-    isOpen: false,
-    images: [
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png",
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/lightbox/src/Designs/Design-1.png"
-    ]
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      photoIndex: 0,
+      isOpen: false,
+      images: [
+        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
+        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
+        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
+        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
+        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg",
+        "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg"
+      ]
+    };
+  }
 
   renderImages = () => {
     let photoIndex = -1;
