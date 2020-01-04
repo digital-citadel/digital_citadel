@@ -15,16 +15,15 @@ const TakeMeToGalleryComponent = () => {
             Gallery
           </MDBTypography>
           <p style={{ color: "#E5EFFF" }}>
-            Seeing is believing isn't it? Have a look at some of our projects
-            and designs and decide for yourself <br /> if we are worth the time
-            you wish to invest upon
+            Have a look at some of our projects and designs and decide for
+            yourself <br /> if we are worth the time you wish to invest upon!
           </p>
           <button
-            type='submit'
             class='btn btn-rounded'
             style={{
               color: "#FFFFFF",
-              backgroundColor: "#E37373"
+              backgroundColor: "#E37373",
+              padding: "5px 10px"
             }}
           >
             <MDBNavLink
