@@ -47,7 +47,7 @@ export default [
     role: "Frontend developer",
     oneLiner: "5+ years of experience",
     description:
-      "Hai! I am a front-end web developer. I basically bring a website to life with my magic CSS fingers. Also pursuing my masters in Computer Science, I speacilize in front-end web frameworks and technologies.",
+      "Hai! I am a front-end web developer. I basically bring a website to life with my magical CSS fingers. Also pursuing my masters in Computer Science, I specialize in front-end web frameworks and technologies.",
     skils: ["Front-End", "Web design", "Database Design", "Web Development"],
     img:
       "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/Screenshot_20191229-180908.jpg",

@@ -24,19 +24,15 @@ class Navbar extends Component {
 
   render() {
     return (
-      <MDBContainer fluid className="no-padding">
-        <MDBNavbar
-          color='#0D0B34'
-          dark
-          expand='md'
-        >
+      <MDBContainer fluid className='no-padding'>
+        <MDBNavbar color='#0D0B34' dark expand='md'>
           <MDBNavbarBrand>
             <img
               src='https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/DC_new.png'
               height='40'
               alt='logo'
-              style={{ marginRight: "10px"}}
-              className="responsive-logo"
+              style={{ marginRight: "10px" }}
+              className='responsive-logo'
             />
             <strong
               style={{ color: "#E37373", marginLeft: "" }}
@@ -105,12 +101,21 @@ class Navbar extends Component {
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink
+                  style={{ color: "#E37373", padding: "1rem" }}
+                  className='waves-effect waves-light'
+                  to='/gallery'
+                >
+                  Gallery
+                </MDBNavLink>
+              </MDBNavItem>
+              <MDBNavItem>
+                <MDBNavLink
                   style={{ color: "#E37373" }}
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  <MDBSmoothScroll to='contact_us' style={{ color: "#E37373" }}>
-                    Contact Us
+                  <MDBSmoothScroll to='gallery' style={{ color: "#E37373" }}>
+                    Blog
                   </MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
@@ -120,8 +125,8 @@ class Navbar extends Component {
                   className='waves-effect waves-light'
                   to='#!'
                 >
-                  <MDBSmoothScroll to='join_us' style={{ color: "#E37373" }}>
-                    Join Us
+                  <MDBSmoothScroll to='contact_us' style={{ color: "#E37373" }}>
+                    Contact Us
                   </MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>

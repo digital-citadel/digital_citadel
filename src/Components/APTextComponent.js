@@ -5,7 +5,7 @@ const APTextComponent = () => {
   return (
     <div className='col-md-12 text-center'>
       <div style={{ marginTop: "2vh" }}>
-        <MDBAnimation reveal type='zoomIn' duration='1s' delay='1s'>
+        <MDBAnimation reveal type='zoomIn' duration='1s'>
           <p style={{ color: "#E5EFFF" }}>
             With the internet and the media growing the way it is, at Digital
             Citadel, we believe everyone deserves <br /> to have their presence

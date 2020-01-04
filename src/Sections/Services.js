@@ -39,7 +39,6 @@ export default class Services extends Component {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                padding: "0 13%",
                 margin: "0"
               }}
             >
