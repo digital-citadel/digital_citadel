@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import { MDBContainer, MDBAnimation, MDBLink } from "mdbreact";
 import Gallery from "../Sections/Gallery";
 
+
+
 class GalleryPage extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
+  
   render() {
     return (
       <section className='background-4'>
