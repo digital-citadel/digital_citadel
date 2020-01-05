@@ -1,34 +1,33 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import {
   MDBCard,
   MDBCardBody,
   MDBCardImage,
   MDBCardTitle,
-  MDBCardText,
-  MDBModal,
-  MDBBtn,
-  MDBModalBody,
-  MDBModalFooter,
-  MDBModalHeader,
-  MDBIcon
+  MDBCardText
 } from "mdbreact";
 
 export default class SPCardComponent extends Component {
-  state = {
-    skills: [],
-    modal7: false
-  };
-  constructor(props) {
-    super(props);
-    console.log(props.service);
+  constructor(props, context) {
+    super(props, context);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+    this.state = {
+      show: false,
+      skills: [],
+      modal7: false
+    };
   }
-  toggle = nr => () => {
-    let modalNumber = "modal" + nr;
-    this.setState({
-      [modalNumber]: !this.state[modalNumber]
-    });
-  };
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
+
   render() {
     return (
       <div
@@ -47,22 +46,16 @@ export default class SPCardComponent extends Component {
           <MDBCardImage
             className='img-fluid'
             src={this.props.service.images}
-            style={{height: "150px"}}
+            style={{ height: "150px" }}
             waves
           />
           <MDBCardBody>
             <MDBCardTitle>
-              <h4
-                className='mb-3'
-                style={{ color: "#e37373" }}
-              >
+              <h4 className='mb-3' style={{ color: "#e37373" }}>
                 {this.props.service.title}
               </h4>
             </MDBCardTitle>
-            <MDBCardText
-              className='white-text'
-              style={{ margin: "0" }}
-            >
+            <MDBCardText className='white-text' style={{ margin: "0" }}>
               {this.props.service.description.map(desc => {
                 return (
                   <ul style={{ margin: "auto", paddingLeft: "0" }}>{desc}</ul>
@@ -70,55 +63,49 @@ export default class SPCardComponent extends Component {
               })}
             </MDBCardText>
             <br />
-            <Link
-              className='mb-3'
-              style={{ color: "#e37373" }}
-              onClick={this.toggle(7)}
+            <button
+              style={{
+                color: "#e37373",
+                backgroundColor: "Transparent",
+                border: "none"
+              }}
+              onClick={this.handleShow}
             >
               Learn More
-            </Link>
-            <i
-              style={{ color: "#e37373", padding: "10px" }}
-              class='fa fa-arrow-right'
-              aria-hidden='true'
-            ></i>
-            <MDBModal
-              className='modal-notify modal-info text-white'
-              isOpen={this.state.modal7}
-              toggle={this.toggle(7)}
-              style={{ backgroundColor: "rgb(13, 11, 52)" }}
-            >
-              <MDBModalHeader
-                className='text-center font-weight-bold'
-                titleClass='w-100'
-                tag='p'
-                style={{ backgroundColor: "rgb(13, 11, 52)", color: "#e37373", fontSize: "large" }}
-              >
-                {this.props.service.title}
-              </MDBModalHeader>
-              <MDBModalBody className='text-center white-text' style={{ backgroundColor: "#0a1250" }}>
-                <MDBIcon
-                  icon='bell'
-                  size='2x'
-                  className='animated rotateIn mb-4'
-                  style={{ color: "#4285F4" }}
-                />
-                <p>{this.props.service.information}</p>
-              </MDBModalBody>
-              <MDBModalFooter className='justify-content-center' style={{ backgroundColor: "rgb(13, 11, 52)" }}>
-                <MDBBtn class='btn btn-rounded'
-                  style={{
-                    color: "#FFFFFF",
-                    backgroundColor: "#E37373",
-                    width: "150px",
-                    height: "45px"
-                  }} outline onClick={this.toggle(7)}>
-                  Close
-                </MDBBtn>
-              </MDBModalFooter>
-            </MDBModal>
+              <i
+                style={{ color: "#e37373", padding: "10px" }}
+                class='fa fa-arrow-right'
+                aria-hidden='true'
+              ></i>
+            </button>
           </MDBCardBody>
         </MDBCard>
+        <Modal
+          aria-labelledby='contained-modal-title-vcenter'
+          centered
+          show={this.state.show}
+          onHide={this.handleClose}
+        >
+          <Modal.Header style={{ backgroundColor: "#0D0B34" }}>
+            <Modal.Title style={{ color: "#E37373" }}>
+              {this.props.service.title}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body
+            scrollable
+            style={{ backgroundColor: "#0D0B34", color: "white" }}
+          >
+            {this.props.service.information}
+          </Modal.Body>
+          <Modal.Footer style={{ backgroundColor: "#0D0B34" }}>
+            <Button
+              style={{ backgroundColor: "#0D0B34" }}
+              onClick={this.handleClose}
+            >
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
       </div>
     );
   }

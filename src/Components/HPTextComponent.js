@@ -29,12 +29,13 @@ const HPTextComponent = () => {
       </div>
       <button
         type='button'
-        className='btn btn-rounded font_bold'
         style={{
           color: "#FFFFFF",
           backgroundColor: "#E37373",
           marginLeft: "10vw",
-          padding: "5px"
+          padding: "8px",
+          borderRadius: "25px",
+          border: "none"
         }}
       >
         <MDBSmoothScroll to='about_us'>Find out more</MDBSmoothScroll>

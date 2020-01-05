@@ -18,11 +18,13 @@ class GalleryPage extends Component {
             style={{ marginTop: "5vh", marginBottom: "5vh" }}
           >
             <button
-              class='btn btn-rounded'
               onClick={this.props.history.goBack}
               style={{
                 color: "#FFFFFF",
-                backgroundColor: "#E37373"
+                backgroundColor: "#E37373",
+                borderRadius: "25px",
+                padding: "10px",
+                border: "none"
               }}
             >
               Thanks! I've seen enough
