@@ -20,11 +20,11 @@ const TakeMeToGalleryComponent = () => {
           </p>
 
           <button
-            class='btn btn-rounded'
             style={{
               color: "#FFFFFF",
               backgroundColor: "#E37373",
-              padding: "5px 10px"
+              borderRadius: "25px",
+              border: "none"
             }}
           >
             <MDBNavLink
