@@ -18,17 +18,19 @@ export default class Home extends Component {
   }
   render() {
     return (
-      <MDBContainer fluid className='no-padding'>
+      <div>
         <Navbar />
-        <section
-          id='home'
-          className='row col-md-12 col-xs-12 responsive-height background-1 no-margin'
-        >
-          <HPTextComponent />
-          <HPIllustration />
-          <HPMouseComponent />
-        </section>
-      </MDBContainer>
+        <MDBContainer fluid className='no-padding'>
+          <section
+            id='home'
+            className='row col-md-12 col-xs-12 responsive-height background-1 no-margin'
+          >
+            <HPTextComponent />
+            <HPIllustration />
+            <HPMouseComponent />
+          </section>
+        </MDBContainer>
+      </div>
     );
   }
 }

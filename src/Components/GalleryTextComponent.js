@@ -1,5 +1,4 @@
 import React from "react";
-import { MDBAnimation } from "mdbreact";
 
 const GalleryTextComponent = () => {
   return (
@@ -17,7 +16,6 @@ const GalleryTextComponent = () => {
           Have a look at some of their sample work that involves designs related
           to both Web and Mobile.
         </p>
-        {/* </MDBAnimation> */}
       </div>
     </div>
   );

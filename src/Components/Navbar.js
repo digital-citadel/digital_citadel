@@ -106,7 +106,11 @@ class Navbar extends Component {
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink
-                  style={{ color: "#E37373", padding: "1rem" }}
+                  style={{
+                    color: "#E37373",
+                    paddingTop: "1.0rem",
+                    paddingLeft: "0.75rem"
+                  }}
                   className='waves-effect waves-light'
                   exact
                   to='/gallery'

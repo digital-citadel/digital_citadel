@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBAnimation, MDBLink } from "mdbreact";
+import { withRouter } from "react-router-dom";
+import { MDBContainer } from "mdbreact";
 import Gallery from "../Sections/Gallery";
 
 class GalleryPage extends Component {
@@ -11,7 +12,6 @@ class GalleryPage extends Component {
     return (
       <section className='background-4'>
         <MDBContainer fluid>
-          {/* <MDBAnimation reveal type='zoomIn' duration='2s'> */}
           <Gallery />
           <div
             className='col-md-12 text-center'
@@ -19,27 +19,19 @@ class GalleryPage extends Component {
           >
             <button
               class='btn btn-rounded'
+              onClick={this.props.history.goBack}
               style={{
                 color: "#FFFFFF",
-                backgroundColor: "#E37373",
-                padding: "5px 10px"
+                backgroundColor: "#E37373"
               }}
             >
-              <MDBLink
-                style={{
-                  color: "#FFFFFF"
-                }}
-                to='/'
-              >
-                Thanks! I've seen enough
-              </MDBLink>
+              Thanks! I've seen enough
             </button>
           </div>
-          {/* </MDBAnimation> */}
         </MDBContainer>
       </section>
     );
   }
 }
 
-export default GalleryPage;
+export default withRouter(GalleryPage);
