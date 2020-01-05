@@ -3,7 +3,7 @@ sudo: required
 services:
   - docker
 before_install:
-  - docker build -t digitalcitadel/digitalcitadel .
+  - docker build -t digitalcitadel/digitalcitadel -f Dockerfile-main .
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 after_success:
   - docker push digitalcitadel/digitalcitadel

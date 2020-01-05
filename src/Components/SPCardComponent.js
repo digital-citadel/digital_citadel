@@ -99,7 +99,14 @@ export default class SPCardComponent extends Component {
           </Modal.Body>
           <Modal.Footer style={{ backgroundColor: "#0D0B34" }}>
             <Button
-              style={{ backgroundColor: "#0D0B34" }}
+              style={{
+                color: "#FFFFFF",
+                backgroundColor: "#E37373",
+                marginLeft: "10vw",
+                padding: "8px",
+                borderRadius: "25px",
+                border: "none"
+              }}
               onClick={this.handleClose}
             >
               Close
