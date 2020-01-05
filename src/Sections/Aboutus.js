@@ -23,7 +23,6 @@ class Aboutus extends Component {
               About Us
             </MDBTypography>
           </MDBAnimation>
-
           <APTextComponent />
           <div className='row col-md-12 col-xs-12'>
             <APIllustration />

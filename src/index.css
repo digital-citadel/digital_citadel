@@ -41,6 +41,9 @@ body {
 .no-margin {
   margin: 0 !important;
 }
+.responsive-hp-illustration {
+  margin-top: 5vh;
+}
 
 .background-1 {
   background-image: url("Assets/HomePageBackground.png");

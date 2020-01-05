@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBAnimation,
-  MDBTypography
-} from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBTypography } from "mdbreact";
 import Lightbox from "react-image-lightbox";
 import GalleryTextComponent from "../Components/GalleryTextComponent";
 import "../Gallery.css";
@@ -65,7 +59,6 @@ class Gallery extends React.Component {
     const { photoIndex, isOpen, images } = this.state;
     return (
       <section className='background-4'>
-        {/* <MDBAnimation reveal type='zoomIn' duration='2s'> */}
         <MDBTypography
           tag='h3'
           variant='h3-responsive'
@@ -74,7 +67,7 @@ class Gallery extends React.Component {
         >
           Gallery
         </MDBTypography>
-        {/* </MDBAnimation> */}
+
         <GalleryTextComponent />
         <MDBContainer className='mt-5'>
           <div className='mdb-lightbox'>
