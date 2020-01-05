@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBAnimation, MDBTypography, MDBNavLink } from "mdbreact";
-import ScrollToTop from "../Components/ScrollToTop";
 
 const TakeMeToGalleryComponent = () => {
   return (
@@ -37,7 +36,6 @@ const TakeMeToGalleryComponent = () => {
             >
               Take me there!
             </MDBNavLink>
-            <ScrollToTop />
           </button>
         </MDBAnimation>
       </div>

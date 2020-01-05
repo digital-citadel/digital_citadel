@@ -47,22 +47,16 @@ export default class SPCardComponent extends Component {
           <MDBCardImage
             className='img-fluid'
             src={this.props.service.images}
-            style={{height: "150px"}}
+            style={{ height: "150px" }}
             waves
           />
           <MDBCardBody>
             <MDBCardTitle>
-              <h4
-                className='mb-3'
-                style={{ color: "#e37373" }}
-              >
+              <h4 className='mb-3' style={{ color: "#e37373" }}>
                 {this.props.service.title}
               </h4>
             </MDBCardTitle>
-            <MDBCardText
-              className='white-text'
-              style={{ margin: "0" }}
-            >
+            <MDBCardText className='white-text' style={{ margin: "0" }}>
               {this.props.service.description.map(desc => {
                 return (
                   <ul style={{ margin: "auto", paddingLeft: "0" }}>{desc}</ul>
@@ -86,17 +80,24 @@ export default class SPCardComponent extends Component {
               className='modal-notify modal-info text-white'
               isOpen={this.state.modal7}
               toggle={this.toggle(7)}
-              style={{ backgroundColor: "rgb(13, 11, 52)" }}
+              centered
             >
               <MDBModalHeader
                 className='text-center font-weight-bold'
                 titleClass='w-100'
                 tag='p'
-                style={{ backgroundColor: "rgb(13, 11, 52)", color: "#e37373", fontSize: "large" }}
+                style={{
+                  backgroundColor: "rgb(13, 11, 52)",
+                  color: "#e37373",
+                  fontSize: "large"
+                }}
               >
                 {this.props.service.title}
               </MDBModalHeader>
-              <MDBModalBody className='text-center white-text' style={{ backgroundColor: "#0a1250" }}>
+              <MDBModalBody
+                className='text-center white-text'
+                style={{ backgroundColor: "#0a1250" }}
+              >
                 <MDBIcon
                   icon='bell'
                   size='2x'
@@ -105,14 +106,21 @@ export default class SPCardComponent extends Component {
                 />
                 <p>{this.props.service.information}</p>
               </MDBModalBody>
-              <MDBModalFooter className='justify-content-center' style={{ backgroundColor: "rgb(13, 11, 52)" }}>
-                <MDBBtn class='btn btn-rounded'
+              <MDBModalFooter
+                className='justify-content-center'
+                style={{ backgroundColor: "rgb(13, 11, 52)" }}
+              >
+                <MDBBtn
+                  class='btn btn-rounded'
                   style={{
                     color: "#FFFFFF",
                     backgroundColor: "#E37373",
                     width: "150px",
                     height: "45px"
-                  }} outline onClick={this.toggle(7)}>
+                  }}
+                  outline
+                  onClick={this.toggle(7)}
+                >
                   Close
                 </MDBBtn>
               </MDBModalFooter>
