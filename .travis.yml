@@ -4,7 +4,8 @@ services:
   - docker
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker pull digitalcitadel/digitalcitadel:latest && docker tag digitalcitadel/digitalcitadel:latest digitalcitadel/digitalcitadel:old && docker push digitalcitadel/digitalcitadel:old
+  - docker pull digitalcitadel/digitalcitadel:latest && docker tag digitalcitadel/digitalcitadel:latest digitalcitadel/digitalcitadel:old
   - docker build -t digitalcitadel/digitalcitadel:latest -f Dockerfile-main .
 after_success:
+  - docker push digitalcitadel/digitalcitadel:old
   - docker push digitalcitadel/digitalcitadel:latest
