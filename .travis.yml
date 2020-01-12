@@ -2,6 +2,9 @@ language: generic
 sudo: required
 services:
   - docker
+branches:
+  only:
+    - master
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker pull digitalcitadel/digitalcitadel:latest && docker tag digitalcitadel/digitalcitadel:latest digitalcitadel/digitalcitadel:old
