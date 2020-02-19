@@ -14,20 +14,6 @@ export default [
     Facebook: "https://www.facebook.com/sandeshathreyabd"
   },
   {
-    id: 2,
-    name: "Nithin Bhardwaj",
-    role: "DevOps Engineer",
-    oneLiner: "3+ years of experience",
-    description:
-      "Currently pursuing a master's degree in computer science, I specialize in cloud architectures and automation. Developement operations is my niche. I have excellent skills in automating tasks with Docker and Kubernetes. ",
-    skils: ["Docker", "Kubernetes", "Hosting", "Security"],
-    img:
-      "https://raw.githubusercontent.com/digital-citadel/digital_citadel/master/src/Assets/IMG-20191229-WA0007.jpg",
-    Github: "https://github.com/Nithinbs18",
-    LinkedIn: "https://linkedin.com/in/nithinbhardwaj",
-    Facebook: "https://www.facebook.com/nithin.bhardwaj"
-  },
-  {
     id: 3,
     name: "Akshay Kumar",
     role: "Web Developer",
