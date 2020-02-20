@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Home from "../Sections/Home";
 import Aboutus from "../Sections/Aboutus";
 import Services from "../Sections/Services";
-import Team from "../Sections/Team";
+// import Team from "../Sections/Team";
 import ContactUs from "../Sections/ContactUs";
 import Footer from "../Sections/Footer";
 import TakeMeToGalleryComponent from "../Components/TakeMeToGalleryComponent";
@@ -18,7 +18,7 @@ class MainPage extends Component {
         <Home />
         <Aboutus />
         <Services />
-        <Team />
+        {/* <Team /> */}
         <TakeMeToGalleryComponent />
         <ContactUs />
         <Footer />

@@ -90,7 +90,7 @@ class Navbar extends Component {
                   </MDBSmoothScroll>
                 </MDBNavLink>
               </MDBNavItem>
-              <MDBNavItem>
+              {/* <MDBNavItem>
                 <MDBNavLink
                   style={{ color: "#E37373" }}
                   className='waves-effect waves-light'
@@ -103,7 +103,7 @@ class Navbar extends Component {
                     The Team
                   </MDBSmoothScroll>
                 </MDBNavLink>
-              </MDBNavItem>
+              </MDBNavItem> */}
               <MDBNavItem>
                 <MDBNavLink
                   style={{

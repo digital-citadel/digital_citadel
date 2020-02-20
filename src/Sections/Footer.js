@@ -44,9 +44,9 @@ const Footer = () => {
               <p>
                 <MDBSmoothScroll to='services'>Services</MDBSmoothScroll>
               </p>
-              <p>
+              {/* <p>
                 <MDBSmoothScroll to='the_team'>The Team</MDBSmoothScroll>
-              </p>
+              </p> */}
             </MDBCol>
             <hr className='w-100 clearfix d-md-none' />
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mt-3'>
@@ -82,7 +82,7 @@ const Footer = () => {
                 <i className='fa fa-envelope mr-3' />
                 info.digitalcitadel@gmail.com
 
-              
+
               </p>
               <p>
                 <i className='fa fa-phone mr-3' /> +49 1744649138
